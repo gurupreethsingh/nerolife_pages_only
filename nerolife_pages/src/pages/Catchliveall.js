@@ -82,6 +82,11 @@ const Catchliveall = () => {
             <img src={one} alt="card to show" />
             <h1 className="p-3 text-center text-light fw-bold">COMING SOON</h1>
           </div>
+
+          <div class="card bg-dark p-1 text-dark bg-opacity-10">
+            <img src={one} alt="card to show" />
+            <h1 className="p-3 text-center text-light fw-bold">COMING SOON</h1>
+          </div>
         </div>
       </div>
     </div>

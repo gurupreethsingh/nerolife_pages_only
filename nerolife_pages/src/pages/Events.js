@@ -156,7 +156,7 @@ import "./Events.css";
 const Events = () => {
   return (
     <div className="d-flex">
-      <div className="cardparent d-flex justify-content-evenly flex-wrap align-items-center border">
+      <div className="cardparent d-flex justify-content-evenly flex-wrap align-items-center">
         <div className="card bg-dark p-1 text-dark bg-opacity-10 ">
           <div
             id="carouselExampleInterval1"

@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Events from "./pages/Events";
 import Allevents from "./pages/Allevents";
 import defaultvideo from "../src/website_assets/videos/default_bg_video.mp4";
+import homebackgroundvideo from "../src/website_assets/videos/home_background_video.mp4";
+import navideo from "../src/website_assets/videos/NA.mp4";
 import Singleevent from "./pages/Singleevent";
 import Catchliveall from "./pages/Catchliveall";
 import Livenow from "./pages/Livenow";
@@ -28,7 +30,7 @@ function App() {
           className="w-full h-full object-cover absolute top-0 left-0 z-[-1]"
         >
           <source
-            src={defaultvideo} // Replace with your video file path
+            src={navideo} // Replace with your video file path
             type="video/mp4"
           />
           Your browser does not support the video tag.

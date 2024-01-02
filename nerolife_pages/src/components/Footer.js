@@ -13,7 +13,14 @@ const Footer = () => {
               Address
             </h3>
             <p className="text-gray-300 text-center md:text-left">
-              Your Street, City, Country
+              #17, KIRLOSKER LAYOUT, SAPTAGIRI
+            </p>
+            <p className="text-gray-300 text-center md:text-left">
+              BANGALORE, IN.
+              <br/>PIN - 560073
+            </p>
+            <p className="text-gray-300 text-center md:text-left">
+              CONTACT - +91 9740619310
             </p>
           </div>
 
@@ -25,17 +32,17 @@ const Footer = () => {
             <ul className="list-none p-0 text-center md:text-left">
               <li className="mb-1">
                 <a href="/" className="text-gray-300">
-                  Home
+                  HOME
                 </a>
               </li>
               <li className="mb-1">
                 <a href="/" className="text-gray-300">
-                  About Us
+                  ABOUT US
                 </a>
               </li>
               <li className="mb-1">
                 <a href="/" className="text-gray-300">
-                  Contact
+                  STORIES
                 </a>
               </li>
             </ul>
