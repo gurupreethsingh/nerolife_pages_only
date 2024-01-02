@@ -1,0 +1,14 @@
+.cardparent{
+      height: 400px;
+}
+
+.card{
+      width: 100%;
+}
+
+@media screen and (max-width : 600px) {
+      .card{
+            width: 95%;
+            margin : 10px auto;
+      }
+}

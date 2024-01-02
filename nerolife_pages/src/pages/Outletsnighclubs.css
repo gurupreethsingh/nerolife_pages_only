@@ -1,0 +1,22 @@
+.outletclubsparent{
+      height : 500px;
+   }
+   
+   .outletclubsleft, .outletclubscenter, .outletclubsright{
+     width: 33%;
+     height: 400px;
+   }
+   
+   .outletclubsleft img { width: 50%; height: 300px; margin : 10px auto}
+   .outletclubscenter img { width: 50%; height: 300px; margin : 10px auto}
+   .outletclubsright img { width: 50%; height: 300px; margin : 10px auto}
+   
+   @media screen and (max-width: 600px) {
+         .outletclubsleft, .outletclubscenter, .outletclubsright{
+               width: 100%;
+             }   
+             
+             .outletclubsparent{
+                  height: auto;
+             }
+   }
